@@ -10,3 +10,4 @@ set guioptions-=r
 set guioptions-=L
 set nobackup
 set noswapfile
+set tabstop=2 shiftwidth=2 expandtab
