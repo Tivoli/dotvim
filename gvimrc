@@ -16,5 +16,6 @@ macmenu &File.New\ Tab key=<D-S-t>
 map <D-t> :CtrlP<CR>
 map <leader>n :execute 'NERDTreeToggle ' . getcwd()<CR>
 let NERDTreeQuitOnOpen = 1
-autocmd BufWritePre * :%s/\s\+$//e
+highlight RedundantWhitespace ctermbg=red guibg=red
 match RedundantWhitespace /\s\+$\|\t/
+autocmd BufWritePre * :%s/\s\+$//e
