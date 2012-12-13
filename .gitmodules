@@ -13,3 +13,6 @@
 [submodule "bundle/ctrlp"]
 	path = bundle/ctrlp
 	url = git://github.com/kien/ctrlp.vim.git
+[submodule "bundle/dustjs"]
+	path = bundle/dustjs
+	url = git://github.com/jimmyhchan/dustjs.vim.git
