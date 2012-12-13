@@ -5,6 +5,13 @@ syntax on
 filetype plugin indent on
 set nobackup
 set noswapfile
-set tabstop=2 shiftwidth=2 expandtab
+set expandtab
+set tabstop=2
+set shiftwidth=2
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*/node_modules/*,*/.git/*
-let NERDTreeQuitOnOpen = 1
+set synmaxcol=1024
+set shell=/bin/zsh
+set noerrorbells
+set visualbell
+set linespace=0
+set cursorline
