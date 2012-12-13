@@ -15,3 +15,4 @@ set noerrorbells
 set visualbell
 set linespace=0
 set cursorline
+set nowrap

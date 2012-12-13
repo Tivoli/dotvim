@@ -11,7 +11,7 @@ set transparency=10
 set gcr=n:blinkon0
 set fuoptions=maxvert,maxhorz
 
-colorscheme solarized
+colorscheme phd
 macmenu &File.New\ Tab key=<D-S-t>
 map <D-t> :CtrlP<CR>
 map <leader>n :execute 'NERDTreeToggle ' . getcwd()<CR>
