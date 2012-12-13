@@ -1,6 +1,6 @@
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
 call pathogen#infect()
+call pathogen#helptags()
+call pathogen#runtime_append_all_bundles()
 syntax on
 filetype plugin indent on
 set background=dark
