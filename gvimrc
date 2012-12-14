@@ -10,6 +10,7 @@ set background=dark
 set transparency=5
 set gcr=n:blinkon0
 set fuoptions=maxvert,maxhorz
+set guifont=Menlo\ Regular:h13
 
 colorscheme phd
 macmenu &File.New\ Tab key=<D-S-t>
