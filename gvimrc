@@ -7,7 +7,7 @@ set guioptions-=T
 set guioptions-=r
 set guioptions-=L
 set background=dark
-set transparency=10
+set transparency=5
 set gcr=n:blinkon0
 set fuoptions=maxvert,maxhorz
 
