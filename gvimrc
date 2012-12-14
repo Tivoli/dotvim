@@ -12,12 +12,13 @@ set gcr=n:blinkon0
 set fuoptions=maxvert,maxhorz
 set guifont=Menlo\ Regular:h13
 
-colorscheme phd
+colorscheme fnaqevan
 macmenu &File.New\ Tab key=<D-S-t>
 map <D-t> :CtrlP<CR>
 map <D-/> <plug>NERDCommenterComment
 map <leader>n :execute 'NERDTreeToggle ' . getcwd()<CR>
 let NERDTreeQuitOnOpen = 1
+highlight CursorLine gui=none guibg=grey10
 highlight RedundantWhitespace ctermbg=red guibg=red
 match RedundantWhitespace /\s\+$\|\t/
 autocmd BufWritePre * :%s/\s\+$//e
