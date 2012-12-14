@@ -14,6 +14,7 @@ set fuoptions=maxvert,maxhorz
 colorscheme phd
 macmenu &File.New\ Tab key=<D-S-t>
 map <D-t> :CtrlP<CR>
+map <D-/> <plug>NERDCommenterComment
 map <leader>n :execute 'NERDTreeToggle ' . getcwd()<CR>
 let NERDTreeQuitOnOpen = 1
 highlight RedundantWhitespace ctermbg=red guibg=red

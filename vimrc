@@ -6,6 +6,7 @@ filetype plugin indent on
 set nobackup
 set noswapfile
 set expandtab
+set smartindent
 set tabstop=2
 set shiftwidth=2
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*/node_modules/*,*/.git/*
