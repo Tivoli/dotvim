@@ -17,3 +17,5 @@ set visualbell
 set linespace=0
 set cursorline
 set nowrap
+let g:user_zen_leader_key = ';'
+let g:user_zen_expandabbr_key = ';;'
