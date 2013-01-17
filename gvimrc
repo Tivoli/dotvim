@@ -12,7 +12,7 @@ set gcr=n:blinkon0
 set fuoptions=maxvert,maxhorz
 set guifont=Menlo\ Regular:h13
 
-colorscheme ir_black
+colorscheme sweyla867459
 macmenu &File.New\ Tab key=<D-S-t>
 map <D-t> :CtrlP<CR>
 map <D-/> <plug>NERDCommenterComment
