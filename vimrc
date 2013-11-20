@@ -39,6 +39,7 @@ highlight RedundantWhitespace ctermbg=red guibg=red
 match RedundantWhitespace /\s\+$\|\t/
 autocmd BufWritePre * :%s/\s\+$//e
 autocmd BufWritePre * :%s/\n\{3,}/\r\r/e
+autocmd BufWritePre * :%s///e
 
 map <D-t> :CtrlP<CR>
 map <D-/> <plug>NERDCommenterComment
