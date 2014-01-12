@@ -33,6 +33,7 @@ set guifont=Menlo\ Regular:h13
 
 let g:user_emmet_leader_key= ';'
 let g:user_emmet_expandabbr_key= ';;'
+let g:ctrlp_use_caching = 0
 
 highlight CursorLine gui=none guibg=grey10
 highlight RedundantWhitespace ctermbg=red guibg=red
