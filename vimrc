@@ -21,6 +21,8 @@ set antialias
 set number
 set ruler
 set showmatch
+set ignorecase
+set smartcase
 set hls is ic scs
 set guioptions-=T
 set guioptions-=r
