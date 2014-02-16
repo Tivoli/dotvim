@@ -9,7 +9,8 @@ set expandtab
 set smartindent
 set tabstop=2
 set shiftwidth=2
-set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*/node_modules/*,*/.git/*,*/target/*,*/static/gen/*
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.ttf,*.woff,*.eot
+set wildignore+=*/node_modules/*,*/.git/*,*/target/*,*/static/gen/*
 set synmaxcol=1024
 set shell=/bin/zsh
 set noerrorbells
