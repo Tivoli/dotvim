@@ -52,3 +52,6 @@
 [submodule "bundle/php-vim"]
 	path = bundle/php-vim
 	url = git@github.com:StanAngeloff/php.vim.git
+[submodule "bundle/vim-go"]
+	path = bundle/vim-go
+	url = git@github.com:fatih/vim-go.git
