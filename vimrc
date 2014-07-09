@@ -51,3 +51,6 @@ map <leader>n :execute 'NERDTreeToggle ' . getcwd()<CR>
 let NERDTreeQuitOnOpen = 1
 
 com! FormatJSON %!python -m json.tool
+
+let g:go_disable_autoinstall = 1
+let g:go_fmt_autosave = 0
