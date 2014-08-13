@@ -5,6 +5,7 @@ syntax on
 filetype plugin indent on
 set nobackup
 set noswapfile
+set nowritebackup
 set expandtab
 set smartindent
 set tabstop=2
