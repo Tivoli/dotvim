@@ -1,6 +1,6 @@
 Installation:
 
-    git clone git@github.com:Tivoli/mvim-setup.git ~/.vim
+    git clone git@github.com:Tivoli/dotvim.git ~/.vim
 
 Create symlinks:
 
