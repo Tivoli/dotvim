@@ -32,6 +32,8 @@ set guioptions-=L
 set background=dark
 set gcr=n:blinkon0
 set guifont=Menlo\ Regular:h13
+colorscheme sweyla827878
+sy on
 
 let g:user_emmet_leader_key= ';'
 let g:user_emmet_expandabbr_key= ';;'
