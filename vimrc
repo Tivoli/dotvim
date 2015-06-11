@@ -33,7 +33,7 @@ set background=dark
 set gcr=n:blinkon0
 set guifont=Menlo\ Regular:h13
 set backspace=indent,eol,start
-colorscheme sweyla827878
+colorscheme sweyla613595
 
 let g:user_emmet_leader_key= ';'
 let g:user_emmet_expandabbr_key= ';;'
