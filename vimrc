@@ -11,7 +11,7 @@ set shiftwidth=2
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.ttf,*.woff,*.eot
 set wildignore+=*/node_modules/*,*/.git/*,*/target/*,*/static/gen/*
 set synmaxcol=1024
-" set shell=/bin/zsh
+set shell=/bin/zsh
 set noerrorbells
 set visualbell
 set linespace=0
@@ -31,7 +31,7 @@ set background=dark
 set gcr=n:blinkon0
 set guifont=Menlo\ Regular:h13
 set backspace=indent,eol,start
-colorscheme sweyla613595
+colorscheme tivs
 
 let g:user_emmet_leader_key= ';'
 let g:user_emmet_expandabbr_key= ';;'
