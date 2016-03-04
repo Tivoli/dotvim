@@ -12,7 +12,7 @@ endif
 " Set environment to 256 colours
 set t_Co=256
 
-let colors_name = "sweyla613595"
+let colors_name = "tivs"
 
 if version >= 700
   hi CursorLine     guibg=#040000 ctermbg=16
@@ -38,14 +38,13 @@ hi SpecialKey       guifg=#7DFFD9 guibg=#130F0F gui=none ctermfg=122 ctermbg=233
 "hi DiffAdd          guibg=#28254C gui=none ctermbg=235 cterm=none
 "hi DiffText         guibg=#683266 gui=none ctermbg=241 cterm=none
 "hi DiffDelete       guibg=#420000 gui=none ctermbg=52 cterm=none
- 
+
 hi DiffChange       guibg=#4C4C09 gui=none ctermbg=234 cterm=none
 hi DiffAdd          guibg=#252556 gui=none ctermbg=17 cterm=none
 hi DiffText         guibg=#66326E gui=none ctermbg=22 cterm=none
 hi DiffDelete       guibg=#3F000A gui=none ctermbg=0 ctermfg=196 cterm=none
 hi TabLineFill      guibg=#5E5E5E gui=none ctermbg=235 ctermfg=228 cterm=none
 hi TabLineSel       guifg=#91F218 gui=bold ctermfg=118 cterm=bold
-
 
 " Syntax highlighting
 hi Comment guifg=#50C0CB gui=none ctermfg=74 cterm=none
