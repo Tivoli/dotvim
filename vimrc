@@ -37,6 +37,12 @@ let g:user_emmet_leader_key= ';'
 let g:user_emmet_expandabbr_key= ';;'
 let g:ctrlp_use_caching = 0
 
+" Ignore some folders and files for CtrlP indexing
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\.git$\|\.yardoc\|node_modules\|build\|log\|tmp$',
+  \ 'file': '\.so$\|\.dat$|\.DS_Store$'
+  \ }
+
 " highlight CursorLine gui=none guibg=grey10
 highlight CursorLine   cterm=NONE ctermbg=237 guibg=#3a3a3a
 highlight CursorColumn cterm=NONE ctermbg=237 guibg=#3a3a3a
