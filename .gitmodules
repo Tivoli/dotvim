@@ -46,3 +46,6 @@
 [submodule "bundle/vim-styled-components"]
 	path = bundle/vim-styled-components
 	url = git@github.com:fleischie/vim-styled-components.git
+[submodule "bundle/vim-graphql"]
+	path = bundle/vim-graphql
+	url = git@github.com:jparise/vim-graphql.git
