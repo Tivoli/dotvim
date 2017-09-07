@@ -49,3 +49,6 @@
 [submodule "bundle/vim-graphql"]
 	path = bundle/vim-graphql
 	url = git@github.com:jparise/vim-graphql.git
+[submodule "bundle/vim-protobuf"]
+	path = bundle/vim-protobuf
+	url = git@github.com:uarun/vim-protobuf.git
